@@ -1,0 +1,10 @@
+{
+  "name": "Brain Dump Organizer",
+  "short_name": "Brain Dump",
+  "description": "AI-powered thought organizer for ADD brains",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary"
+}
