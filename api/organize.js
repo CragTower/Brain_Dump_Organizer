@@ -28,13 +28,8 @@ export default async function handler(req, res) {
             throw new Error('Claude API key not found.');
         }
 
+        // Prompt for Claude API integration
         const prompt = `I have ADD and captured these thoughts throughout the day. Please organize them into clear categories:
-    
-            1. **Widget Development Tasks** - anything related to coding projects or technical work
-            2. **Content Ideas** - ideas for YouTube, TikTok, Twitch, or other content
-            3. **Calendar/Schedule Items** - things with dates, deadlines, or time-sensitive tasks
-            4. **Job Hunt Related** - applications, interview prep, portfolio work, networking
-            5. **Miscellaneous Notes** - everything else that doesnt fit above categories
     
             Here are my thoughts:
             ${text}

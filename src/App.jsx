@@ -50,7 +50,7 @@ function App() {
         <div className="min-h-screen bg-gray-50 p-8">
             <div className="max-w-4xl mx-auto">
                 <h1 className="text-4xl font-bold text-gray-900 mb-2">
-                    Brain Dump Organizer
+                    Mind Sift
                 </h1>
                 <p className="text-gray-600 mb-8">
                     AI-powered thought organizer for ADD brains
